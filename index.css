@@ -1,0 +1,50 @@
+body{
+  padding: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  min-width: 400px;
+  /* google ghrome will understand that we dont want width less than 400px
+  we want our app to be (min-width=400px) */
+}
+input{
+  /* width=100%+10px+10px but with box-sizing:border-box =>width=100%  */
+  width: 100%;
+  margin-bottom: 2px;
+  padding: 10px;
+  border: 1px solid  #5f9341;
+  box-sizing: border-box;
+
+}
+button{
+  margin-top: 2px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border: #5f9341 1px solid;
+
+}
+#input-btn,#tab-btn{
+  color: white;
+  background-color: #5f9341;
+
+}
+ul{
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+
+ }
+li{
+  margin-top: 5px;
+
+  
+
+}
+li a{
+color: #5f9341;
+}
+#delete-btn{
+  color: #5f9341;
+  background-color: white;
+}
